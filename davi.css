@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 1px;
+    background-color: rgb(20, 20, 20);
+}
+
+#creator{
+    height: 300px;
+    margin-left: 35%;
+    border-radius: 5%;
+}
+div{
+    display: flex;
+    margin-left:-200px;
+}
+#introducao{
+    width: 300px;
+    margin-left: 30px;
+    padding: 60px;
+    background-color: rgb(126, 26, 26);
+    border-radius: 10%;
+}
