@@ -226,3 +226,30 @@ footer{
     justify-content: center;
 }
 
+@media (max-width: 1024px) {
+
+    .headerSobre {
+        width: 70%;
+    }
+
+    .cards {
+        gap: 2rem;
+    }
+
+    .card {
+        width: 160px;
+        height: 160px;
+        font-size: 60px;
+    }
+
+    .imagensMurilo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .curiosidadesLugares div {
+        width: 200px;
+        height: 200px;
+    }
+
+}

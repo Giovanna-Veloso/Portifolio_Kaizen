@@ -54,3 +54,27 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap : 150px;
 }
+@media (max-width: 768px) {
+
+    .Subdivisoes-sem-titulo {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+}
+@media (max-width: 480px) {
+
+    .titulos {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    .Subdivisoes-sem-titulo {
+        gap: 15px;
+    }
+
+    .listas-horizontais {
+        gap: 20px;
+    }
+
+}
