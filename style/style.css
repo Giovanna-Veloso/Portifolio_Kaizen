@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #102129, #3c6d7d, #3c7087);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    background: rgba(255,255,255,0.05);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.card {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: linear-gradient(135deg, #1b7088, #1f4676);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(255,255,255,0.05);
+    font-size: 0.9rem;
+}
+footer li{
+    list-style: none;
+    margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 20px;
+        font-size: 1rem;
+    }
+}
